@@ -30,6 +30,6 @@ function currentLine(katzDeli) {
     for (let i = 0; i < katzDeli.length; i++) {
       lineList.push(" " + parseInt(i+1) + ". " + katzDeli[i])
     }
-    return `The line is currently: ${lineList}`
+    return `The line is currently:${lineList}`
   }
 }
