@@ -28,7 +28,7 @@ function currentLine(katzDeli) {
   else {
     var lineList = []
     for (let i = 0; i < katzDeli.length; i++) {
-      lineList.push(`katzDeli[i]`)
+      lineList.push(katzDeli[i])
     }
     return `The line is currently: ${lineList}`
   }
